@@ -1,0 +1,40 @@
+*{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    color-scheme: light dark;
+    background-color: #242424;
+}
+
+.App{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.board-container{
+    margin: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winnerText{
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.againButton{
+    font-size: 1.5rem;
+}
